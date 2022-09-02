@@ -1,0 +1,607 @@
+div {
+    border-width: 0px;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body {
+   margin:0px;
+}
+img {
+    position: relative;
+    float: left;
+	}
+.divMenu {
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.divLogo {
+    width: 70px;
+    margin-left: 10px;
+    margin-top: -6px;
+    position: static;
+}
+.divMenuLinks {
+    position: relative;
+    top: 19px;
+    right: 19px;
+    color: #FFFFFF;
+    float: right;
+}
+.TextoMenu {
+    color: #FFFFFF;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    font-size: small;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.divImg {
+    width: 100%;
+    position: static;
+}
+.divSite {
+    width: 100%;
+}
+.divThree {
+    width: 33.33%;
+    background-color: #000000;
+    float: none;
+}
+.TextoArt {
+    font-family: "H74 Warlock", "H74 BEAST", "H74 Klauth 01", "H74 Motherland", "H74 Spitfire", "Marcellus SC", "Futura Lt BT", Futura-Medium;
+    color: #000000;
+    font-size: 300px;
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.TextoMarcellus {
+    font-family: "Marcellus SC", "Nomada Didone Extrablack", "Poppins SemiBold", "Space Mono", "HelveticaNeueLT Std Med";
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #000000;
+    width: 100%;
+    height: 64px;
+    font-size: 50px;
+}
+.divTrabalhos {
+    width: 100%;
+    background-color: #000000;
+}
+.divTrabalhosFilhos {
+    width: 33.33%;
+    padding: 2%;
+    min-height: 800px;
+}
+
+	.divFix {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-height: 600px;
+		}
+
+	.myIMG {
+		width:100%;
+		height: auto;
+		}
+
+.divFilhosSize {
+    min-width: 700px;
+}
+
+.botton {
+    border-radius: 142px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    height: 60px;
+    text-align: left;
+}
+.botton:hover {
+    background-color: #D30505;
+    color: #FFFFFF;
+}
+
+.bt_GO {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    text-decoration: none;
+    color: #000000;
+    font-family: "Marcellus SC", "Nomada Didone Extrablack", "Poppins SemiBold", "Space Mono", "HelveticaNeueLT Std Med";
+}
+.bt_GO:hover {
+    color: #FFFFFF;
+}
+
+.divFinal {
+    width: 100%;
+    height: 300px;
+    background-color: #000000;
+}
+.divCara {
+    width: 100%;
+    background-color: #000000;
+    height: auto;
+}
+
+.divFinalLogo {
+    height: 150px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    height: 150px;
+    text-align: left;
+}
+.divFinalLogoInsta {
+    height: 70px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    height: 40px;
+    text-align: left;
+    top: -60px;
+}
+.divEspaso {
+    width: 25%;
+    background-color: #000000;
+}
+.divEspasoImagen {
+    width: 50%;
+    top: 59px;
+    position: relative;
+}
+.divEspasoCentro {
+    width: 50%;
+}
+
+.divInfoImg {
+    padding: 2%;
+    width: 50%;
+}
+.divInfoText {
+    width: 50%;
+}
+.divTitulo {
+    padding: 4%;
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus SC", "Nomada Didone Extrablack", "Poppins SemiBold", "Space Mono", "HelveticaNeueLT Std Med";
+    font-size: xx-large;
+}
+.divParrafo {
+    text-align: left;
+    color: #000000;
+    padding: 6%;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    font-size: larger;
+}
+.divParrafoBlanco {
+    color: #FFFFFF;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    font-size: larger;
+    padding: 6%;
+    text-align: left;
+}
+
+.bottonPreto {
+    border-radius: 142px;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    height: 60px;
+    text-align: left;
+}
+.bt_Hablemos {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Marcellus SC", "Nomada Didone Extrablack", "Poppins SemiBold", "Space Mono", "HelveticaNeueLT Std Med";
+}
+.bt_Hablemos:hover {
+    color: #000000;
+}
+
+.divTituloDous {
+    color: #000000;
+    font-family: "Marcellus SC", "Nomada Didone Extrablack", "Poppins SemiBold", "Space Mono", "HelveticaNeueLT Std Med";
+    font-size: large;
+    padding: 4%;
+    text-align: center;
+    font-style: normal;
+}
+.divParrafoDous {
+    color: #000000;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    font-size: medium;
+    padding: 2%;
+    text-align: center;
+}
+.divContacto {
+    color: #000000;
+    font-family: "Marcellus SC", Poppins, "Poppins Black", "Nomada Didone";
+    text-align: center;
+    padding: 4%;
+    font-size: 40px;
+    margin-top: 60px;
+}
+.divEspacio {
+    height: 100px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.divSeparacion {
+    width: 20%;
+}
+.divCentroSeparacion {
+    width: 60%;
+    text-align: left;
+    float: none;
+}
+
+
+.divImagenProyecto {
+    padding: 2%;
+    width: 50%;
+}
+.divSite div {
+}
+.divProyectoTexto {
+    padding: 4%;
+    width: 50%;
+}
+.divBlessed {
+    width: 100%;
+    background-color: #D30505;
+}
+.bottonPreto:hover {
+    background-color: #D30505;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+.divImg {
+    width: 100%;
+    height: auto;
+}
+.divTrabalhosFilhos {
+    width: 100%;
+}
+	
+	
+		.divFix {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-height: 600px;
+		}
+	
+	
+	.myIMG {
+		width:100%;
+		height: auto;
+		
+		}
+.TextoMarcellus {
+    font-family: "Marcellus SC", "Nomada Didone Extrablack", "Poppins SemiBold", "Space Mono", "HelveticaNeueLT Std Med";
+    color: #FFFFFF;
+    font-size: medium;
+
+}
+.divCara {
+    width: 100%;
+    height: 240px;
+    background-color: #000000;
+}
+.divParrafo {
+    padding: 8%;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    color: #000000;
+    font-size: small;
+}
+.divParrafoBlanco {
+    color: #FFFFFF;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    font-size: small;
+    padding: 8%;
+    text-align: left;
+}
+
+.divTitulo {
+    padding: 6%;
+    color: #000000;
+    font-family: "Marcellus SC", "Nomada Didone Extrablack", "Poppins SemiBold", "Space Mono", "HelveticaNeueLT Std Med";
+    font-size: large;
+    text-align: center;
+}
+.divParrafoDous {
+    color: #000000;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    text-align: center;
+    padding: 6%;
+    font-size: small;
+}
+.divParrafoTres {
+    font-size: small;
+    text-align: justify;
+    color: #000000;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+}
+.divContacto {
+    color: #000000;
+    font-family: "Marcellus SC", Poppins, "Poppins Black", "Nomada Didone";
+    text-align: center;
+    font-size: 30px;
+}
+.divImagenProyecto {
+    width: 100%;
+}
+.divProyectoTexto {
+    width: 100%;
+}
+.divPortada {
+    width: 100%;
+    background-color: #000000;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:600px) and (max-width:1200px){
+.divImg {
+    width: 100%;
+    height: auto;
+}
+.divTrabalhosFilhos {
+    width: 100%;
+	padding: 0px;
+}
+	
+		.divFix {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-height: 600px;
+		}
+	
+		.myIMG {
+		width:100%;
+		height: auto;
+		}
+.TextoMarcellus {
+    color: #FFFFFF;
+    font-family: "Marcellus SC", "Nomada Didone Extrablack", "Poppins SemiBold", "Space Mono", "HelveticaNeueLT Std Med";
+    font-size: x-large;
+
+}
+.divCara {
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+}
+.divParrafo {
+    padding-top: 6%;
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-bottom: 6%;
+    color: #000000;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    font-size: medium;
+    text-align: left;
+}
+.divParrafoBlanco {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: medium;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.divTitulo {
+    color: #000000;
+    font-family: "Marcellus SC", "Nomada Didone Extrablack", "Poppins SemiBold", "Space Mono", "HelveticaNeueLT Std Med";
+    padding: 6%;
+    font-size: x-large;
+    text-align: center;
+}
+.divParrafoDous {
+    padding: 4%;
+    text-align: center;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    color: #000000;
+    font-size: small;
+}
+.divParrafoTres {
+    color: #000000;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    font-size: small;
+    text-align: justify;
+}
+.divContacto {
+    color: #000000;
+    font-family: "Marcellus SC", Poppins, "Poppins Black", "Nomada Didone";
+    text-align: center;
+    font-size: 40px;
+}
+.divPortada {
+    width: 100%;
+    background-color: #000000;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:1201px){
+.divImg {
+    width: 100%;
+    height: auto;
+}
+.divTrabalhosFilhos {
+    width: 33.33%;
+    padding: 0px;
+}
+	
+	
+	.divFix {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-height: 660px;
+		
+		}
+	
+		.myIMG {
+    width: 100%;
+    height: auto;
+			
+		}
+.divCara {
+    width: 100%;
+    height: 580px;
+    background-color: #000000;
+}
+.divParrafo {
+    padding-top: 4%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    color: #000000;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    font-size: larger;
+    text-align: left;
+}
+.divParrafoBlanco {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    font-size: larger;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.divTitulo {
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus SC", "Nomada Didone Extrablack", "Poppins SemiBold", "Space Mono", "HelveticaNeueLT Std Med";
+    font-size: xx-large;
+}
+.divParrafoTres {
+    font-family: Poppins, "Poppins Medium", "Poppins SemiBold", "Poppins Thin", "Poppins Light", "Poppins ExtraBold", Aileron, Arial, Rubik;
+    color: #000000;
+    font-size: medium;
+    text-align: justify;
+}
+.divContacto {
+    color: #000000;
+    font-family: "Marcellus SC", Poppins, "Poppins Black", "Nomada Didone";
+    text-align: center;
+    font-size: 50px;
+}
+.divPortada {
+    width: 100%;
+    background-color: #000000;
+}
+
+
+
+
+
+
+
+
+}
